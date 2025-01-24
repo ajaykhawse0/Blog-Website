@@ -57,7 +57,7 @@ if (loginForm) {
     if (storedUser && storedUser.username === username && storedUser.password === password) {
       localStorage.setItem('loggedIn', 'true');
       // alert('Login successful!');
-      window.location.href = 'blogs.html'; // Redirect to home page
+      window.location.href = 'index.html'; // Redirect to home page
     } else {
       alert('Invalid username or password!');
     }
